@@ -1,18 +1,29 @@
-## Getting Started
+# Desafio [2] — Duas Somas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Dificuldade:** Fácil
 
-## Folder Structure
+## Enunciado
 
-The workspace contains two folders by default, where:
+Dado um conjunto de inteiros `nums` e um inteiro `alvo`, retorne os índices dos dois primeiros números cuja soma seja exatamente o valor do alvo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Regras
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- O desafio deve ser resolvido utilizando qualquer linguagem de programação.
+- Caso a entrada tenha mais de uma solução que some para atingir o alvo, todas devem ser retornadas.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tempo Cronometrado
+
+- Meu tempo neste desafio foi de 13 minutos e 34 segundos.
+
+---
+
+## Exemplos
+
+**Entrada:** `nums = [2,7,11,15]`, `alvo = 9`  
+**Saída:** `[0,1]`  
+**Explicação:** Como `nums[0] + nums[1] == 9`, retornamos `[0, 1]`.
+
