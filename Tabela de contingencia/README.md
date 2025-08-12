@@ -1,18 +1,20 @@
-## Getting Started
+# Desafio [1] — Tabela de Contingência
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Enunciado
 
-## Folder Structure
+Este desafio foi proposto por um amigo, que recebeu este problema em uma entrevista de emprego. Trata-se de implementar um método que recebe como entrada um vetor de inteiros e retorna, como saída, uma lista de vetores. Cada vetor dessa lista deve conter um elemento do vetor original e a quantidade de vezes que ele aparece nele.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tempo Cronometrado
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Meu tempo neste desafio foi de 2h05min, um tempo relativamente alto, do qual não fiquei satisfeito. Por isso, decidi começar a praticar estes desafios.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## Exemplos
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Entrada               | Saída                        |
+|-----------------------|-----------------------------|
+| [1, 1, 2, 3, 4, 5, 5, 6, 7] | [[1, 2], [2, 1], [3, 1], [4, 1], [5, 2], [6, 1], [7, 1]] |
+
