@@ -5,16 +5,12 @@ public class App {
 
         for (int i = 0; i < vet.length; i++) {
             int atual = vet[i];
-            boolean encontrado = false;
+
             for (int j = 0; j < vet.length; j++) {
                 if (atual + vet[j] == alvo) {
-                    System.out.println("posições " + i + " " + j);
-                    encontrado = true;
+                    System.out.println("posições " + i + " e " + j);
                     break;
                 }
-            }
-            if(encontrado==true){
-                break;
             }
 
         }
