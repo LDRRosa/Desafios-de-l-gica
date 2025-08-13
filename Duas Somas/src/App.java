@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         int[] vet = { 3, 2, 4, 7, 5, 20, 40, 3, 75, 1, 2, 15, 10, 9 };
         int alvo = 10;
 
@@ -17,3 +17,4 @@ public class App {
 
     }
 }
+
